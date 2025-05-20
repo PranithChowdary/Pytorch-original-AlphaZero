@@ -29,21 +29,18 @@ Designed with **research reproducibility**, **educational clarity**, and **modul
 ```
 
 .
-├── alpha\_zero/              # Core logic (MCTS, model, pipeline)
+├── alpha\_zero/             # Core logic (MCTS, model, pipeline)
 │   ├── core/                # MCTS, network, rating, replay
 │   ├── envs/                # Go & Gomoku environments (Gym-style)
 │   └── utils/               # SGF parsing, data transformations, logging
-├── eval\_play/               # GUI/CLI for evaluating trained agents
-├── games/                   # Saved matches (SGF format)
+├── eval_play/               # GUI/CLI for evaluating trained agents
 ├── logs/                    # TensorBoard and evaluation logs
 ├── docker/                  # Dockerfile for reproducibility
-├── tensorboard/             # TensorBoard logging utilities
-├── notebooks/               # Live demo to play in-browser
 ├── others/                  # Analysis scripts, Elo graphs, score systems
-├── unit\_tests/              # Tests for environments, MCTS, transformations
-├── plot\_go.py               # Training visualization
-├── plot\_gomoku.py
-├── run\_unit\_tests.sh
+├── unit_tests/              # Tests for environments, MCTS, transformations
+├── plot_go.py               # Training visualization
+├── plot_gomoku.py
+├── run_unit_tests.sh
 └── README.md
 
 ````
