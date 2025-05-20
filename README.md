@@ -4,7 +4,6 @@ My implementation of the original AlphaZero paper:
 **"A general reinforcement learning algorithm that masters Chess, Shogi, and Go through self-play"**  
 → [Silver et al., DeepMind, 2017](https://www.nature.com/articles/nature24270)
 
----
 
 ## 🚀 Overview
 
@@ -12,7 +11,6 @@ This project reimplements the core ideas of AlphaZero using PyTorch from scratch
 It supports training and evaluation on board games like **Go** and **Gomoku**, with modular MCTS, a deep residual neural network, and a scalable self-play pipeline.  
 Designed with **research reproducibility**, **educational clarity**, and **modular experimentation** in mind.
 
----
 
 ## 🔥 Key Features
 
@@ -25,7 +23,6 @@ Designed with **research reproducibility**, **educational clarity**, and **modul
 - 🌐 **Notebook UI** — Play interactively against trained agents in-browser
 - 🔍 **SGF Support** — Replay and analyze Go games using Sabaki or similar tools
 
----
 
 ## 🗂️ Project Structure
 
@@ -51,7 +48,6 @@ Designed with **research reproducibility**, **educational clarity**, and **modul
 
 ````
 
----
 
 ## ⚙️ Getting Started
 
@@ -68,7 +64,6 @@ docker run -it --rm -p 6006:6006 alphazero-pytorch
 pip install -r requirements.txt
 ```
 
----
 
 ## 🏋️ Train an Agent
 
@@ -90,8 +85,6 @@ TensorBoard logs saved to `logs/`:
 tensorboard --logdir logs/
 ```
 
----
-
 ## 🧪 Evaluate Agents
 
 ### GUI/Terminal Match:
@@ -107,7 +100,6 @@ python eval_play/eval_agent_go_cmd.py             # Terminal
 python eval_play/eval_agent_go_cmd.py --opponent crazystone
 ```
 
----
 
 ## 🎮 Play in Browser (Notebook)
 
@@ -117,7 +109,6 @@ Launch Jupyter and play interactively in-browser:
 jupyter notebook notebooks/play_agent_demo.ipynb
 ```
 
----
 
 ## 📊 Visualize Progress
 
@@ -126,15 +117,12 @@ python plot_go.py        # Elo & Win-rate vs Checkpoints
 python plot_gomoku.py
 ```
 
----
-
 ## 🧠 Research Notes
 
 * Training is scaled-down for accessibility (fewer simulations, smaller nets)
 * Designed to be **hackable**: plug in your own game, change architecture, modify MCTS
 * All games stored in **SGF format** for compatibility with viewers like Sabaki
 
----
 
 ## 📌 To-Do & Roadmap
 
@@ -144,13 +132,11 @@ python plot_gomoku.py
 * [ ] Improved GUI (Streamlit / WebRTC)
 * [ ] Support for AlphaZero variants (MuZero, EfficientZero)
 
----
 
 ## 📜 License
 
 This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for full details.
 
----
 
 ## 🙏 Acknowledgments
 
@@ -158,7 +144,6 @@ This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for
 * MiniGo, Leela Zero, and Sabaki for inspiration
 * OpenAI Gym and PyTorch for frameworks
 
----
 
 ## 🧠 Author
 
@@ -166,6 +151,5 @@ This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for
 Research-focused AI Engineer | ML + RL + LLMs
 [GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
 
----
 
 Feel free to ⭐ this repo if you find it useful!
