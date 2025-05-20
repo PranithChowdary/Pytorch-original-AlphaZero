@@ -1,8 +1,3 @@
-Absolutely! Here's a professional and polished version of your `README.md` starting with your intro, while incorporating your project’s strengths, structure, and future goals:
-
----
-
-```markdown
 # Pytorch-original-AlphaZero
 
 My implementation of the original AlphaZero paper:  
@@ -174,15 +169,3 @@ Research-focused AI Engineer | ML + RL + LLMs
 ---
 
 Feel free to ⭐ this repo if you find it useful!
-
-```
-
----
-
-Let me know:
-- If you want a shorter “academic style” version
-- Or if you want to include command-line flags (`--board_size`, `--num_actors`, etc.)
-- Or even generate the GitHub Pages docs from this
-
-Happy to help refine further!
-```
